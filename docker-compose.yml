@@ -6,8 +6,3 @@ services:
     container_name: "nginx_cont"
     ports:
       - "80:80"
-    networks:
-      - notes-app-nw
-
-networks:
-  notes-app-nw:
